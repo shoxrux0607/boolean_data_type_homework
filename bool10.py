@@ -1,3 +1,6 @@
+from math import *
+
+
 def main(a):
     """
     Check that the number "a" is a perfect square.
@@ -7,4 +10,9 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    y = sqrt(abs(a))
+    x = floor(y)
+    return x**2 == a
+
+
+print(main(-25))
