@@ -1,4 +1,4 @@
-def main(a,b):
+def main(a, b):
     """
     Check the following statement "they are equal"
     Args:
@@ -7,5 +7,8 @@ def main(a,b):
     Returns:
         bool
     """
-    # Write your code here
-    return 
+
+    return a == b
+
+
+print(main(6, 5))
