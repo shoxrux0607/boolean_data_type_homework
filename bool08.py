@@ -1,3 +1,6 @@
+from math import *
+
+
 def main(a):
     """
     check the whole number. Integers are 0 and a positive number.
@@ -7,8 +10,8 @@ def main(a):
         bool
     """
     # Write your code here
-    x = a >= 0
-    return x
+    x = floor(a)
+    return x == a >= 0
 
 
-print(main(-9))
+print(main(-1))
